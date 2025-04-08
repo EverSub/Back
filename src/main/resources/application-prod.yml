@@ -1,11 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ENC(8ZXC1MsW5L30CxbhzL7grNFTm/N7c4c0A+laLFi3+Y6U5zC8NVZLcOnC+zLQvXzVJKgWVtRLtbs+L/ZkqJd0Aw==)
-    username: ENC(wVQicImzNxw6ewa53Fy3zw==)
-    password: ENC(acC6IwE5qWPyGeH4oikcY+jyEmTP8FTr)
+    url: ENC(gC1LQHZ1vJOkdJibeHFDvpyFbI74WRwyODh12iGI3ioetjnTU5yY5yo1ccR+pid5QsBFJr70vTZqcQDe29KzPkDRPhQBckNAoKvfeDC1+fctkpSKvjcAMGgli4srUNdX)
+    username: ENC(cDOWSDL8dFWOZN+L6aSGpw==)
+    password: ENC(CEnBYPjZvoQ8KXhgTQh1QcV6Uh0t7OyH)
+
   jpa:
     hibernate:
       ddl-auto: create
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        database-platform: org.hibernate.dialect.MySQL8Dialect
